@@ -29,7 +29,7 @@ int main () {
 
 void procuraNome(char matriz[L][C]) {
     int i=0;
-    char encontrar[] = {"N", "e", "o"};
+    char encontrar[3] = {'N', 'e', 'o'};
     int encontrado = 0;
 
     for (i=0; i<L; i++) {
