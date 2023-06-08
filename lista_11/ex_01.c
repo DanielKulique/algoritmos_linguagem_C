@@ -26,5 +26,5 @@ int encontrarMaior(int vet[15], int tamanho, int i) {
         }
     }
     //printf("%d ", vet[i]);
-    encontrarMaior(vet, tamanho, i + 1);
+    return encontrarMaior(vet, tamanho, i + 1);
 }
