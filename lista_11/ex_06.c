@@ -8,7 +8,7 @@ int soma = 0;
 int main () {
     int n=1, k=1;
     do {
-        printf("\nDigite dois numero [k] e [n] positivos para obter a sua multiplicacao por soma: ");
+        printf("\nDigite dois numero [k] e [n] positivos para obter a sua multiplicacao por soma: it ");
         scanf("%d %d", &k, &n);
     } while (n < 0 || k < 0);
     printf("%d", multiplicacaoSoma(k, n));
