@@ -6,7 +6,7 @@ das posições desde a posição (0,0) até a posição (M-1,
 M-1), e imprime qual região (norte, sul, leste ou oeste) é
 a mais populosa, sendo a matriz dividida sempre em
 quartos ignorando as diagonais.*/
-
+ 
 #include <stdio.h>
 #define m 100
 #define n 100
